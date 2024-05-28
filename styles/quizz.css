@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('../styles/cores.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #FFBD13;
+    --blue: #4383FF;
+    --blue-d-1: #3278FF;
+    --light: #F5F5F5;
+    --grey: #AAA;
+    --white: #FFF;
+    --shadow: 8px 8px 30px rgba(0, 0, 0, .05);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    height: 100vh;
+    padding: 4px;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+    background: var(--fundo);
+
+}
+
+
+#cabecalho {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px 0px 2px 0px;
+    padding: 10px;
+}
+
+#cabecalho div {
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#cabecalho h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--textos);
+    line-height: 20px;
+}
+
+#cabecalho img {
+    height: 60px;
+}
+
+hr {
+    width: 70vw;
+    color: var(--verde);
+    border-top: 1px solid var(--verde);
+    left: 10vw;
+    position: relative;
+}
+
+#cabecalho p {
+    color: var(--roxo);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+    padding: 14px;
+    width: 100%;
+    margin-top: 14px;
+    height: calc(90vh - 80px);
+    gap: 16px;
+    text-align: center;
+}
+
+.container-interesse {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+main img {
+    height: 65px;
+}
+
+#cardapioVazio{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    & img{
+        height: 160px;
+    }
+    & h3{
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: var(--roxo);
+    }
+}
+
+#painelVoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40px;
+
+}
+#chamada {
+    font-size: 20px;
+    font-weight: 300;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+#chamada span {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--laranja);
+}
+
+#cardapio {
+    letter-spacing: 2px;
+    color: var(--roxo);
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#painelVoto p{
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--nao);
+}
+
+#interesse {
+    font-size: 24px;
+    color: var(--textos);
+    margin-top: 20px;
+}
+
+.botoes {
+    width: 100%;
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    width: 280px;
+    height: 60px;
+    background-color: var(--fundo);
+    cursor: pointer;
+    border-radius: 30px;
+    border: 3px solid #595cff;
+    font-size: 18px;
+    color: var(--roxo);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn span{
+    font-size: 22px;
+}
+
+#btn-sim {
+    color: var(--verde-sim);
+    border-color: var(--verde-sim);
+}
+
+#btn-nao {
+    color: var(--nao);
+    border-color: var(--nao);
+}
+
+#avaliarCardapio {
+    width: 100%;
+    height: 100vh;
+    padding: 16px;
+    justify-content: center;
+    grid-gap: 8px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#avaliarCardapio img {
+    width: 160px;
+}
+
+/* Rating Form */
+
+.wrapper {
+    background: var(--fundo);
+    margin: 16px auto;
+    padding: 2rem;
+    max-width: 576px;
+    width: 100%;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--roxo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.wrapper h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--textos);
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: .5rem;
+    font-size: 2rem;
+    color: var(--yellow);
+    margin-bottom: 2rem;
+}
+
+.rating .star {
+    cursor: pointer;
+}
+
+.rating .star.active {
+    opacity: 0;
+    animation: animate .5s calc(var(--i) * .1s) ease-in-out forwards;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.rating .star:hover {
+    transform: scale(1.1);
+}
+
+textarea {
+    width: 100%;
+    background: #353A3F26;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: .5rem;
+}
+
+.btn-group {
+    display: flex;
+    grid-gap: .5rem;
+    align-items: center;
+}
+
+#botaoOpiniao {
+    background-color: var(--roxo);
+    border-style: none;
+    color: var(--fundo);
+
+}
+
+
+#completo {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+#completo h2 {
+    color: var(--roxo);
+}
+
+#completo img {
+    height: 280px;
+}

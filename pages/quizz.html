@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Participe efetivamente da escola</title>
+  <link rel="stylesheet" href="../styles/relogio.css" />
+  <link rel="stylesheet" href="../styles/quizz.css" />
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" defer src="../scripts/quizz.js"></script>
+</head>
+
+<body>
+  <section id="cabecalho">
+    <div>
+      <p>Bem vindo</p>
+      <h1 id="usuarioEmail">NOME DO ALUNO</h1>
+    </div>
+    <img src="../assets/images/fominhaAppSimbolo.png" alt="" id="usuarioImage" />
+  </section>
+  <hr />
+
+  <!-- Exibe painel quando não tem menu -->
+  <main id="cardapioVazio">
+    <h3>Nenhum cardápio informado!</h3>
+
+    <dotlottie-player src="https://lottie.host/4fdfbed7-8233-4cfc-b8b4-858dbf5016cc/jNFYdPZIzG.json"
+      background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+  </main>
+
+  <!-- Exibe os dados para votar -->
+  <main id="painelVoto">
+    <h1 id="chamada"></h1>
+    <h3 id="cardapio"></h3>
+    <p>*Sujeito a alteração</p>
+    <div id="relogio" style="color: #a0cadb" class="la-timer la-3x">
+      <div></div>
+    </div>
+
+    <div class="container-interesse">
+      <h2 id="interesse">Você tem interesse</h2>
+      <img src="../assets/images/grafico.png" alt="" />
+    </div>
+    <div class="botoes">
+      <form action="avaliar.html" method="get">
+        <button class="btn" id="btn-sim" type="submit">
+          <span>SIM</span>
+          <i style="color: #52df50" class="fa-regular fa-thumbs-up"></i>
+        </button>
+      </form>
+      <form action="obrigado.html" method="get">
+        <button class="btn" id="btn-nao" type="submit">
+          <span>Não</span>
+          <i style="color: #df5052" class="fa-regular fa-thumbs-down"></i>
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    function adicionarTextoERemoverRelogio() {
+      const elementoCardapio = document.getElementById("cardapio");
+      const elementoRelogio = document.getElementById("relogio");
+
+      if (elementoCardapio && elementoRelogio) {
+
+        setTimeout(function () {
+          elementoRelogio.remove();
+          elementoCardapio.textContent = "Arroz, carne bovina com batata e farofa de abobrinha";
+
+        }, 3000);
+      } else {
+        console.error("Elementos não encontrados.");
+      }
+
+    }
+
+    document.addEventListener("DOMContentLoaded", adicionarTextoERemoverRelogio);
+
+  </script>
+</body>
+
+</html>
