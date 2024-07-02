@@ -1,4 +1,4 @@
-# fominha_app_modulo_publico
+# fominhaApp módulo público
 
 <img src="assets/images/fominhaAppSemFundo.png" alt="Fominha app logotipo + escrita">
 
@@ -13,6 +13,10 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Criação de redes sociais
 - [x] Implementação do app na escola piloto
 - [ ] Análise dos dados coletados
+
+## Como acessar o fominhaApp
+
+> O projeto faz parte de um projeto maior, o qual foi dividido em dois módulos, o módulo público (este aqui) e o módulo de administrador
 
 ## Equipe Harvest 
 
