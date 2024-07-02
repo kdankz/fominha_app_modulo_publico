@@ -1,6 +1,6 @@
 # fominha_app_modulo_publico
 
-<img src="assets/images/fominhaAppSemFundo.png" alt="Exemplo imagem">
+<img src="assets/images/fominhaAppSemFundo.png" alt="Fominha app logotipo + escrita">
 
 > FominhaApp é um aplicativo web no qual estudantes votam se tem interesse ou não na merenda escolar, visando mitigar o desperdício de alimentos nas escolas a partir dos dados gerados dessa votação.
 
