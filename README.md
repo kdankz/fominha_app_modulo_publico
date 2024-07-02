@@ -18,7 +18,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 > O projeto faz parte de um projeto maior, o qual foi dividido em dois módulos, o módulo público (este aqui) e o módulo de administrador
 
-Você pode acessar o aplicativo pelo site: https://participe-escola.vercel.app/index.html. Para acessar e votar se deseja comer hoje é necessário ter um @escola, selecionar a escola piloto CE Sebastião Paraná e finalmente, votar!
+Você pode acessar o aplicativo pelo <a href="https://participe-escola.vercel.app/index.html" title="Link do site">site</a>. Para acessar e votar se deseja comer hoje é necessário ter um @escola, selecionar a escola piloto CE Sebastião Paraná e finalmente, votar!
 
 ## Equipe Harvest 
 
