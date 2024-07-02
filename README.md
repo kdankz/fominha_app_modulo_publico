@@ -18,6 +18,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 > O projeto faz parte de um projeto maior, o qual foi dividido em dois módulos, o módulo público (este aqui) e o módulo de administrador
 
+Você pode acessar o aplicativo pelo <a href="https://participe-escola.vercel.app/index.html" title="Link do site do fominhaApp">. Para acessar e votar se deseja comer hoje é necessário ter um @escola, selecionar a escola piloto CE Sebastião Paraná e finalmente, votar!
+
 ## Equipe Harvest 
 
 > "Heróis contra o desperdício de recursos, permitindo a transformação sustentável"
