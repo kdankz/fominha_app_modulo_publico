@@ -20,6 +20,13 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Você pode acessar o aplicativo pelo <a href="https://participe-escola.vercel.app/index.html" title="Link do site">site</a>. Para acessar é necessário ter um @escola e selecionar a escola piloto, CE Sebastião Paraná, e, por fim, votar!
 
+### Uso do site
+
+> 1. Clique no botao "Logar com @escola" na página inicial do site e selecione seu @escola.
+> 2. Escolha a escola piloto "CE Sebastião Paraná".
+> 3. Clique se tem interesse ou não pela merenda do dia.
+> 4. Se clicou em "SIM", deixe uma avaliação sobre o que achou da merenda.
+
 ## Equipe Harvest 
 
 > "Heróis contra o desperdício de recursos, permitindo a transformação sustentável"
