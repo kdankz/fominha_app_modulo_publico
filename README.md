@@ -43,8 +43,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="https://github.com/ggsundays" title="Link perfil GitHub da Geovana Domingos">
         <img src="assets/images/geovanaDomingos.png" width="100px;" alt="Foto da Geovana Domingos"/><br>
         <sub>
-          <b>Geovana Domingos</b><br>
-          <b></b>
+          <b>Geovana Domingos</b>
         </sub>
       </a>
     </td>
@@ -52,8 +51,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="https://github.com/Grazizpzp" title="Link perfil GitHub da Graziela M. dos Santos">
         <img src="/assets/images/grazielaDosSantos.png" width="100px;" alt="Foto da  Graziela M. dos Santos"/><br>
         <sub>
-          <b>Graziela M. dos Santos</b><br>
-          <b></b>
+          <b>Graziela M. dos Santos</b>
         </sub>
       </a>
     </td>
@@ -70,8 +68,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="https://github.com/pontotori" title="Link perfil GitHub da Maria Vitoria Sabater">
         <img src="assets/images/mariaVitoriaSabater.png" width="100px;" alt="Foto da Maria Vitoria Sabater"/><br>
         <sub>
-          <b>Maria Vitoria Sabater</b><br>
-          <b></b>
+          <b>Maria Vitoria Sabater</b>
         </sub>
       </a>
     </td>
