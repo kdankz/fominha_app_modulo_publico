@@ -2,7 +2,7 @@
 
 <img src="assets/images/fominhaAppSemFundo.png" alt="Fominha app logotipo + escrita">
 
-> FominhaApp é um aplicativo web no qual estudantes votam se tem interesse ou não na merenda escolar, visando mitigar o desperdício de alimentos nas escolas a partir dos dados gerados dessa votação.
+> FominhaApp é um aplicativo web no qual estudantes votam se tem interesse ou não na merenda escolar. O site foi criado com objetivo de visando o desperdício de alimentos nas escolas a partir dos dados gerados dessa votação.
 
 ### Ajustes e melhorias
 
@@ -16,9 +16,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## Como acessar o fominhaApp
 
-> O projeto faz parte de um projeto maior, o qual foi dividido em dois módulos, o módulo público (este aqui) e o módulo de administrador
+> O projeto faz parte de um projeto maior, o qual foi dividido em dois módulos, o módulo público (este aqui) e o módulo de administrador.
 
-Você pode acessar o aplicativo pelo <a href="https://participe-escola.vercel.app/index.html" title="Link do site">site</a>. Para acessar e votar se deseja comer hoje é necessário ter um @escola, selecionar a escola piloto CE Sebastião Paraná e finalmente, votar!
+Você pode acessar o aplicativo pelo <a href="https://participe-escola.vercel.app/index.html" title="Link do site">site</a>. Para acessar é necessário ter um @escola e selecionar a escola piloto, CE Sebastião Paraná, e, por fim, votar!
 
 ## Equipe Harvest 
 
@@ -31,10 +31,11 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#" title="defina o titulo do link">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+      <a href="https://github.com/kheronn" title="Link perfil GitHub do Professor Kheronn">
+        <img src="https://avatars.githubusercontent.com/u/26843093?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Prof. Kheronn</b>
+          <b>(Orientador)</b>
         </sub>
       </a>
     </td>
