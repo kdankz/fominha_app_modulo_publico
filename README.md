@@ -68,8 +68,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="https://github.com/pontotori" title="Link perfil GitHub da Maria Vitoria Sabater">
         <img src="https://cdn.discordapp.com/attachments/927729599855599647/1265468807904755793/Untitled42_20240723213849.png?ex=66a19f2b&is=66a04dab&hm=77e1d9c7aba3a238ebd10f5ff5ac731ad199b7c1c147746f6b424e2e3f42a3f7&" width="100px;" alt="Foto da Maria Vitoria Sabater"/><br>
         <sub>
-          <b>Maria Vitoria Sabater</b><br>
-          <b>(Eu)</b>
+          <b>Maria Vitoria Sabater</b>
         </sub>
       </a>
     </td>
